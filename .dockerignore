@@ -8,5 +8,4 @@ README*
 test/
 priv/static/assets
 **/node_modules
-#import/
 teslamate.bck
