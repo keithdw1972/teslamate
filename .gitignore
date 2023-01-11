@@ -58,6 +58,3 @@ config/*.env
 
 # Mac files
 .DS_Store
-
-docker-compose.yml
-.yml
