@@ -47,7 +47,7 @@ npm-debug.log
 config/*.env
 .env
 
-/import/
+#/import/
 .srtm_cache/
 
 # Make sure IDE files don't get committed to the repo
