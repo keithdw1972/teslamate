@@ -2,7 +2,11 @@ version: "3"
 
 services:
   teslamate:
-    image: teslamate/teslamate:latest
+    container_name: teslamate
+    image: keithdw/teslamate:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     restart: always
     environment:
       - ENCRYPTION_KEY= #*******
